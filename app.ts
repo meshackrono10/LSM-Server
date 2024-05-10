@@ -22,7 +22,10 @@ app.use(cookieParser());
 // origin: process.env.ORIGIN,
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://elearninglms.netlify.app"],
+    origin: [
+      "http://localhost:3000",
+      "https://learning-system-hfv0.onrender.com",
+    ],
     credentials: true,
   })
 );
